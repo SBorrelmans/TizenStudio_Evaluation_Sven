@@ -1,0 +1,86 @@
+OCTYPE html>
+<html>
+
+<head>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>
+        MS-tapping
+    </title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="TAUUIComponents/lib/tau/wearable/theme/default/tau.css" rel="stylesheet" />
+    <link href="TAUUIComponents/lib/tau/wearable/theme/default/tau.circle.css" media="all and (-tizen-geometric-shape: circle)" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="TAUUIComponents/css/style.css" />
+    <link href="TAUUIComponents/css/style.circle.css" media="all and (-tizen-geometric-shape: circle)" rel="stylesheet" />
+    <script src="TAUUIComponents/js/circle-helper.js"></script>
+    <script src="TAUUIComponents/lib/tau/wearable/js/tau.js"></script>
+    <script src="TAUUIComponents/js/app.js"></script>
+     <script src="js/main.js"></script>
+     <!--  timer -->
+     <script src="js/timer.js"></script>
+</head>
+
+<!--  The page always has a header, mandatory content and a footer -->
+
+<body>
+
+    <!-- first page -->
+    <div class="ui-page" id="MSone">
+        <div class="ui-content">
+            <ul class="ui-listview3">
+                <li class="ms_questionline">
+                    <a href="#MStwo_Ag">Agree</a>
+                </li>
+                <li class="ms_questionline">
+                    <a href="#MSthree">Neutral</a>
+                </li>
+                <li class="ui-selectmode-item">
+                    <a href="#MStwo_Dis">Disagree</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- second page Agree -->
+    <div class="ui-page" id="MStwo_Ag">
+        <div class="ui-content">
+            <ul class="ui-listview3_agree">
+                <li class="ms_questionline">
+                    <a href="#MSthree">Strongly Agree</a>
+                </li>
+                <li class="ms_questionline">
+                    <a href="#MSthree">Agree</a>
+                </li>
+                <li class="ui-selectmode-item">
+                    <a href="#MSthree">Somewhat Agree</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- second page Disgree -->
+    <div class="ui-page" id="MStwo_Dis">
+        <div class="ui-content">
+            <ul class="ui-listview3_Disagree">
+                <li class="ms_questionline">
+                    <a href="#MSthree">Strongly Disagree</a>
+                </li>
+                <li class="ms_questionline">
+                    <a href="#MSthree">Disagree</a>
+                </li>
+                <li class="ui-selectmode-item">
+                    <a href="#MSthree">Somewhat Disagree</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- closing screen -->
+    <div class="ui-page" id="MSthree">
+        <div class="ui-content closingScreen">
+            <img src="assets/Completed.png" width="100%" height="100%">
+        </div>
+    </div>
+</body>
+
+</html>

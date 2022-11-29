@@ -1,0 +1,87 @@
+OCTYPE html>
+<html>
+
+<head>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>
+        Bezelrotation
+    </title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="TAUUIComponents/lib/tau/wearable/theme/default/tau.css" rel="stylesheet" />
+    <link href="TAUUIComponents/lib/tau/wearable/theme/default/tau.circle.css" media="all and (-tizen-geometric-shape: circle)" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="TAUUIComponents/css/style.css" />
+    <link href="TAUUIComponents/css/style.circle.css" media="all and (-tizen-geometric-shape: circle)" rel="stylesheet" />
+    <script src="TAUUIComponents/js/circle-helper.js"></script>
+    <script src="TAUUIComponents/lib/tau/wearable/js/tau.js"></script>
+    <script src="TAUUIComponents/js/app.js"></script>
+    <script src="js/main.js"></script>
+</head>
+
+<!--  The page always has a header, mandatory content and a footer -->
+
+<body>
+    <div class="ui-page" data-enable-page-scroll="false" id="circularSectionchangerPage">
+        <div class="ui-page-indicator" id="pageIndicator">
+        </div>
+        <link href="css/sectionchanger.css" rel="stylesheet" />
+        <div class="ui-content" id="circularSectionchanger">
+            <!-- section changer has only one child. -->
+            <div>
+                <section style="text-align:center">
+                    <h3>
+
+						Strongly Disagree
+
+					</h3>
+                </section>
+                <section style="text-align:center">
+                    <h3>
+
+						Disagree
+
+					</h3>
+                </section>
+                <section style="text-align:center">
+                    <h3>
+
+						Somewhat Disagree
+
+					</h3>
+                </section>
+                <section class="ui-section-active" style="text-align:center">
+                    <h3>
+
+						Neutral
+
+					</h3>
+                </section>
+                <section  style="text-align:center">
+                    <h3>
+
+						Somewhat Agree
+
+					</h3>
+                </section>
+                <section style="text-align:center">
+                    <h3>
+
+						Agree
+
+					</h3>
+                </section>
+                <section style="text-align:center">
+                    <h3>
+
+						Strongly Agree
+
+					</h3>
+                </section>
+            </div>
+        </div>
+        <script src="js/circular.js">
+        </script>
+    </div>
+</body>
+
+</html>

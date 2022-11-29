@@ -1,0 +1,98 @@
+OCTYPE html>
+<html>
+
+<head>
+    <meta content="width=device-width, initial-scale=1, user-scalable=no" name="viewport" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <title>
+        Bezelrotation
+    </title>
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="TAUUIComponents/lib/tau/wearable/theme/default/tau.css" rel="stylesheet" />
+    <link href="TAUUIComponents/lib/tau/wearable/theme/default/tau.circle.css" media="all and (-tizen-geometric-shape: circle)" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="TAUUIComponents/css/style.css" />
+    <link href="TAUUIComponents/css/style.circle.css" media="all and (-tizen-geometric-shape: circle)" rel="stylesheet" />
+    <script src="TAUUIComponents/js/circle-helper.js"></script>
+    <script src="TAUUIComponents/lib/tau/wearable/js/tau.js"></script>
+    <script src="TAUUIComponents/js/app.js"></script>
+    <script src="js/main.js"></script>
+    <link href="css/sectionchanger.css" rel="stylesheet" />
+</head>
+
+
+<!--  The page always has a header, mandatory content and a footer -->
+
+<body>
+
+    <!-- Main screen of swiping -->
+    <div class="ui-page" data-enable-page-scroll="false" id="hsectionchangerPage">
+        <div class="ui-page-indicator" id="pageIndicator">
+        </div>
+        <div class="ui-content" id="hsectionchanger">
+            <!-- section changer has only one child. -->
+            <div>
+                <section style="text-align:center">
+                    <h3>
+						<a href="#Stwo">Strongly Disagree</a>
+					</h3>
+                </section>
+                <section style="text-align:center">
+                    <h3>
+
+						<a href="Stwo">Disagree</a>
+
+					</h3>
+                </section>
+                <section style="text-align:center">
+                    <h3>
+
+						<a href="Stwo">Somewhat Disagree</a>
+
+					</h3>
+                </section>
+                <section class="ui-section-active" style="text-align:center">
+                    <h3>
+
+						<a href="#Stwo">Neutral</a>
+
+					</h3>
+                </section>
+                <section style="text-align:center">
+                    <h3>
+
+						<a href="#Stwo">Somewhat Agree</a>
+
+					</h3>
+                </section>
+                <section style="text-align:center">
+                    <h3>
+
+						<a href="#Stwo">Agree</a>
+
+					</h3>
+                </section>
+                <section style="text-align:center">
+                    <h3>
+
+						<a href="#Stwo">Strongly Agree</a>
+
+					</h3>
+                </section>
+            </div>
+        </div>
+        <script src="js/hsection.js">
+        </script>
+    </div>
+
+
+    <!-- closing screen -->
+    <div class="ui-page" id="Stwo">
+        <div class="ui-content closingScreen">
+            <img src="assets/Completed.png" width="100%" height="100%">
+            <script src="js/timer.js"></script>
+        </div>
+    </div>
+
+</body>
+
+</html>
