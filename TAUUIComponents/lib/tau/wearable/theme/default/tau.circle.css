@@ -155,8 +155,8 @@ Listview
   If you have duplicate value, please change static value to variable value.
 ***************************************************************************/
 body {
-  background: #000000;
-  color: #ffffff;
+  /*background: #000000;
+  color: #ffffff;*/
 }
 .ui-page {
   background: #000000;
@@ -458,9 +458,9 @@ body {
   overflow-scrolling: auto;
 }
 .ui-page.ui-scroll-on .ui-content {
-  margin-top: 7.1875rem;
+  /*margin-top: 7.1875rem;
   padding-bottom: 6.25rem;
-  padding-top: 0;
+  padding-top: 0;*/
 }
 .ui-page.ui-scroll-on .ui-header ~ .ui-content {
   margin-top: 0;
@@ -3113,14 +3113,14 @@ Processing
   width: 1px;
 }
 .ui-selector {
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(255, 255, 255, 1);
 }
 .ui-selector .ui-item {
-  background-color: #ffffff;
+  color: rbga(0,250,0,1)
 }
 .ui-selector .ui-item:active {
-  background-color: #bfbfbf;
-}
+color: rbga(0,255,0,1)}
+
 .ui-selector .ui-item.ui-item-active:active {
   background-color: #ffffff;
 }
@@ -3133,11 +3133,11 @@ Processing
   background-color: rgba(250, 250, 250, 0.4);
 }
 .ui-selector .ui-selector-indicator {
-  font-size: 1.875rem;
+  font-size: 3rem;
 }
 .ui-selector .ui-selector-indicator .ui-selector-indicator-text {
-  color: #ffffff;
-}
+
+	}
 .ui-selector .ui-selector-indicator .ui-selector-indicator-subtext {
   color: #4cacff;
 }

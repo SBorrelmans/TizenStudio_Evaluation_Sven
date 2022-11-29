@@ -375,9 +375,6 @@ li.static::before {
 	margin-right: 20px;
 }
 
-.list-button-color::before {
-}
-
 .app-icon::before {
 	/* TODO: replace this icon with IC icon according to the guide */
 	background-image: url(images/b_more_option_human_icon.png);
@@ -831,9 +828,6 @@ input[type="checkbox"]#checkboxControl {
 	width: 100%;
 	height: 100%;
 	background-color: rgba(255, 0, 0, 1);
-	mask-image: url(../css/images/b_settings_list_icon.png);
-	mask-position: center center;
-	mask-repeat: no-repeat;
 	-webkit-mask-image: url(../css/images/b_settings_list_icon.png);
 	-webkit-mask-position: center center;
 	-webkit-mask-repeat: no-repeat;

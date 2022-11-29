@@ -4097,6 +4097,7 @@ tau-pageindicator {
     display: block;
 }
 .ui-page-indicator {
+	margin-top:20px
     display: block;
     position: absolute;
     left: 50%;
@@ -4411,11 +4412,11 @@ tau-sectionchanger {
     color: rgba(24, 174, 225, 1);
 }
 .ui-selector .ui-selector-indicator .ui-selector-indicator-text {
-    font-size: 5rem;
+    font-size: 7rem;
     pointer-events: none;
     width: 10.25rem;
-    line-height: 5rem;
-    max-height: 5rem;
+    line-height: 8rem;
+    max-height: 7rem;
     text-align: center;
     overflow: hidden;
 }

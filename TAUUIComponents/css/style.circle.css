@@ -286,9 +286,6 @@
 li.static::before {
 	content: "";
 	-webkit-mask-image: url(../contents/list/images/tw_list_check_ic.png);
-	mask-image: url(../contents/list/images/tw_list_check_ic.png);
-	-webkit-mask-repeat: no-repeat;
-	mask-repeat: no-repeat;
 	background-color: rgba(112, 186, 15, 1);
 	width: 0;
 	height: 56px;
@@ -387,7 +384,6 @@ li.static::before {
 	-webkit-transform: translateX(-50%);
 	transform: translateX(-50%);
 	-webkit-mask-repeat: no-repeat;
-	mask-repeat: no-repeat;
 }
 
 #selectModePage li.select span::after {
@@ -528,7 +524,6 @@ li.static::before {
 	min-height: 100px;
 	border-image: none;
 	-webkit-mask-image: none;
-	mask-image: none;
 	margin-top: 0;
 	padding: 0;
 }
@@ -613,7 +608,7 @@ li.hide-popup-li {
 	justify-content: center;
 }
 
-/* -----------------------------------  OPTION POPUP------------------------------------ */
+/* -----------------------------------  OPTION POPUP------------------------------------ 
 .option-icon-action::before {
 	-webkit-mask-image: url(../contents/assistviews/images/b_option_list_icon_action.png);
 	mask-image: url(../contents/assistviews/images/b_option_list_icon_action.png);
@@ -648,7 +643,7 @@ li.hide-popup-li {
 	-webkit-mask-image: url(../contents/assistviews/images/b_option_icon_message.png);
 	mask-image: url(../contents/assistviews/images/b_option_icon_message.png);
 }
-
+*/
 /* -----------------------------------POPUP------------------------------------ */
 .btn-icon-share::before {
 	background-color: rgba(245, 245, 245, 1);
