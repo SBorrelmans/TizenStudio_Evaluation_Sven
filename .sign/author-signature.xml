@@ -164,8 +164,8 @@ ePg5nV3eFQ==</DigestValue>
 </Reference>
 <Reference URI="TAUUIComponents%2Fcss%2Fstyle.circle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>Tin4Sl9JqC2pM6wRkRtZ//C8EGkQgrbRR7OaAIpPbvRu4m1E7FJb8OUCWuZW+TEz6CPaqNJnBtSW
-gaSWDLgkhQ==</DigestValue>
+<DigestValue>Pp7+D1CseFlMzNHNhrOoYGgKqCq0JaibrlNpBZ6tAc15ErCavNSHEFBg5pwXnXqdrFl8YWXvTdd+
+qxOtCAnp6g==</DigestValue>
 </Reference>
 <Reference URI="TAUUIComponents%2Fcss%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -2119,8 +2119,8 @@ SRQWAYHXPA==</DigestValue>
 </Reference>
 <Reference URI="TAUUIComponents%2Flib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Ftau.circle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>BJLiV3Rer/kH2n1ZQeZgWFixjgNziX5nuPpp7r6l/G2fAS3pkHCdYr5tf7X3ma70ChW6jWZ8ovIj
-cv9MvKLmxA==</DigestValue>
+<DigestValue>Ivj8HRECVFWCt1nQQK51p0gBsXCUTdLDKMy5HBA3HMTKhV+srTILYt2xmuGDplQZMBWITVWarIOO
+XP3w3jorSQ==</DigestValue>
 </Reference>
 <Reference URI="TAUUIComponents%2Flib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Ftau.circle.min.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -2227,11 +2227,11 @@ QY10fG1EWQ==</DigestValue>
 </Reference>
 </SignedInfo>
 <SignatureValue>
-kOR9bmSKAp8LbtlNIcNp5PO6czjg+LWkcq6hVVSdx1WF4z8+LNrrAWhafrCw+95QnNHvJpJA2SoB
-fKrFc9QKM9SBD8wiVIgQY/TInBu9HK2w0bXXH0FbDAKvdYZxPnPc46/A4noNYUtEMF4MNChTYMS+
-K2gG5+gOtyQ73UN8d1tdeRAXgbT8lLlA00qJfLsgbMSNBTIweNMr32h2vzgDF0a8HNpuxxhyaVdR
-4KgjhTnonpXeWlvYG8PR2mPIHMHNcN4rbX3WQKQZM4jHcDhcuwAMlJRVhpyt7HcSfUu//nsVXjS4
-cIMWJdCPtGFj3SprXdcR7ZgYXCsA8i/vGQzZJg==
+QaO59radIRT5HLMnSvSajqrUZbOFsNkBSxmuqwBkucJ4Ia1pGgcQeDqgaRd6S+menylUkhwCql3H
+7D9R5VvmhyAS9m+jTc6p5GU+Ghcbfi3ZgT7JWcS+S6/HMQDWsWNad99E520lI5A1y8ltW1I6ICqy
+13TOJklUcIIf6g7dmUEwxUlpG6Qvkkgysqg215tdbF9Byj9n/DUWGCjxih5Rr+4jR9sVWR8If63Y
+JqYWgMedv/w4imHAARo7O4oCsLvyddrkNBNEhnWuVCJu7bZJU6bugZKwyJkrj7Xk2+8S5vK6qfVn
+alNDjiqU804h5EMPfMjF5B+8MRvEHELGORiiPw==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

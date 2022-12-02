@@ -164,8 +164,8 @@ ePg5nV3eFQ==</DigestValue>
 </Reference>
 <Reference URI="TAUUIComponents%2Fcss%2Fstyle.circle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>Tin4Sl9JqC2pM6wRkRtZ//C8EGkQgrbRR7OaAIpPbvRu4m1E7FJb8OUCWuZW+TEz6CPaqNJnBtSW
-gaSWDLgkhQ==</DigestValue>
+<DigestValue>Pp7+D1CseFlMzNHNhrOoYGgKqCq0JaibrlNpBZ6tAc15ErCavNSHEFBg5pwXnXqdrFl8YWXvTdd+
+qxOtCAnp6g==</DigestValue>
 </Reference>
 <Reference URI="TAUUIComponents%2Fcss%2Fstyle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -2119,8 +2119,8 @@ SRQWAYHXPA==</DigestValue>
 </Reference>
 <Reference URI="TAUUIComponents%2Flib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Ftau.circle.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>BJLiV3Rer/kH2n1ZQeZgWFixjgNziX5nuPpp7r6l/G2fAS3pkHCdYr5tf7X3ma70ChW6jWZ8ovIj
-cv9MvKLmxA==</DigestValue>
+<DigestValue>Ivj8HRECVFWCt1nQQK51p0gBsXCUTdLDKMy5HBA3HMTKhV+srTILYt2xmuGDplQZMBWITVWarIOO
+XP3w3jorSQ==</DigestValue>
 </Reference>
 <Reference URI="TAUUIComponents%2Flib%2Ftau%2Fwearable%2Ftheme%2Fdefault%2Ftau.circle.min.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -2159,8 +2159,8 @@ K1mpMjoAng==</DigestValue>
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>bZiuYg7a2KhK80QAmoB98h2ZXq0A8lEodx37jIo5J014CONeK23EddmlkI4jZYUfF8sq6/jtIdGU
-x2dZ47trnQ==</DigestValue>
+<DigestValue>0bwmPT9quxSJCun1PfoW7VEJmbXVUGexgUIJvWbDovvGRC1a6rqVGJJ+F3TJL1ysyuE1g5W3kqFf
+KE7200qubA==</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -2232,11 +2232,11 @@ GyvKX9Snig==</DigestValue>
 </Reference>
 </SignedInfo>
 <SignatureValue>
-Y11jWMprvWbjCxGiT4r6arlIZYXNCx1QBMvao4lOhI8gvcubGPE+7/x48sPqLmuj4SBN1f3VLW8q
-V6saE8VP95fwSsO7rR/D5u53Pt59V6tVQOoLQJE2+ii1z0NFOOdVl177aFyCmCu7LeAhYK/Gk844
-XSrVxiFw0aXxEjPJYJFmPyo/OXxqQkbPrvPXAGrHxCuJS8tgZTt8dOZuL4KM7W1yXgTYuV78kqPy
-sgEup1sWZQfBPvURPV2VDUkUFe9+6la0OOXsTuNaQq85YGp38XuJSHyvYdjZSWJxpFYuHR3K5GmB
-Sxc1kmGcGizNEZIdFVo7pLix+PFaOCOI1cToJg==
+HLeY8L2B0hsmRqsQuzMvxsALTzrC9RlRc/DibZU+CfuSFEEbf1Dj3vR41ckzQQ0J30KF6dj895rV
++eCZPwfRdie8KKOhN3Mk3iCYZ1ttADELdGFBT6D+HBGwhJewgrrDrvJ8SerL5DwDcv2uF9OomKwv
+x0vXOoUh8aJuqegsbzdT7C3dimi+EVdmBpOReUN9c+5pWwngGB6mzENawpwa2ezFTrNhP+PR0+Zo
+wAeTqpcekCDkNrBLoBD76XZJIPedhadXTapzVyTcYS5CSg2ER0DTstr6rwG3pGJtIh5FcrnSpUxS
+rTdoYsgMC8bhRQRxo+p6Epzf4vzOYrK+OsGLeQ==
 </SignatureValue>
 <KeyInfo>
 <X509Data>

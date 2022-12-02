@@ -388,14 +388,12 @@ li.static::before {
 
 #selectModePage li.select span::after {
 	-webkit-mask-image: url(../contents/list/images/tw_list_check_line.png);
-	mask-image: url(../contents/list/images/tw_list_check_line.png);
 	background-color: white;
 }
 
 #selectModePage li.select span::before {
 	content: "";
 	-webkit-mask-image: url(../contents/list/images/tw_list_check_ic.png);
-	mask-image: url(../contents/list/images/tw_list_check_ic.png);
 	background-color: rgba(77, 207, 255, 1);
 }
 
@@ -498,7 +496,6 @@ li.static::before {
 	padding: 0;
 	border-radius: 50%;
 	-webkit-mask-image: -webkit-radial-gradient(#000000 6.28125rem, transparent 0);
-	mask-image: -webkit-radial-gradient(#000000 6.28125rem, transparent 0);
 	min-height: 12.5625rem !important;
 	background-color: rgb(0, 53, 74);
 	border: 0;
@@ -648,19 +645,16 @@ li.hide-popup-li {
 .btn-icon-share::before {
 	background-color: rgba(245, 245, 245, 1);
 	-webkit-mask-image: url(../contents/assistviews/images/tw_ic_button_share_holo_dark.png);
-	mask-image: url(../contents/assistviews/images/tw_ic_button_share_holo_dark.png);
 }
 
 .btn-icon-showonphone::before {
 	background-color: rgba(245, 245, 245, 1);
 	-webkit-mask-image: url(../contents/assistviews/images/tw_ic_button_showonphone_holo_dark.png);
-	mask-image: url(../contents/assistviews/images/tw_ic_button_showonphone_holo_dark.png);
 }
 
 .btn-icon-delete::before {
 	background-color: rgba(245, 245, 245, 1);
 	-webkit-mask-image: url(../contents/assistviews/images/tw_ic_button_delete_holo_dark.png);
-	mask-image: url(../contents/assistviews/images/tw_ic_button_delete_holo_dark.png);
 }
 
 /* ----------------------------------Toggle Switch-------------------------------- */
@@ -925,7 +919,6 @@ input[type="checkbox"]#checkboxControl {
 .li-has-action-icon .li-action-icon-button.li-action-setting,
 .li-has-action-icon .li-action-icon-button.li-action-add {
 	-webkit-mask-image: none;
-	mask-image: none;
 	background-color: transparent;
 }
 
@@ -939,11 +932,6 @@ input[type="checkbox"]#checkboxControl {
 	width: 100%;
 	height: 100%;
 	-webkit-mask-size: 53px 53px;
-	mask-size: 53px 53px;
-	-webkit-mask-repeat: no-repeat;
-	mask-repeat: no-repeat;
-	-webkit-mask-position: center center;
-	mask-position: center center;
 	background-color: rgba(245, 245, 245, 1);
 }
 
@@ -953,17 +941,14 @@ input[type="checkbox"]#checkboxControl {
 
 .li-has-action-icon .li-action-icon-button.li-action-delete::after {
 	-webkit-mask-image: url(../contents/list/images/tw_list_delete_holo_dark.png);
-	mask-image: url(../contents/list/images/tw_list_delete_holo_dark.png);
 }
 
 .li-has-action-icon .li-action-icon-button.li-action-setting::after {
 	-webkit-mask-image: url(../contents/list/images/tw_list_setting_holo_dark.png);
-	mask-image: url(../contents/list/images/tw_list_setting_holo_dark.png);
 }
 
 .li-has-action-icon .li-action-icon-button.li-action-add::after {
 	-webkit-mask-image: url(../contents/list/images/tw_list_add_holo_dark.png);
-	mask-image: url(../contents/list/images/tw_list_add_holo_dark.png);
 }
 
 .li-has-action-icon .li-action-icon-button {
@@ -1061,7 +1046,6 @@ input[type="checkbox"]#checkboxControl {
 
 #page_webkitui input {
 	max-width: 300px;
-	color: initial;
 }
 #input_webkitui_hiddentime {
 	position: absolute;
