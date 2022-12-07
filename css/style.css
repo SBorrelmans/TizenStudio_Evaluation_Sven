@@ -84,3 +84,16 @@ body {
     margin: 10px;
     padding: 90px 0 0 0;
 }
+.answer_s {
+    font-weight: bold;
+    font-size: 8rem;
+    margin: 20px;
+    padding: 80px 0 0 0;
+}
+.q_interaction {
+    color: rgba(24, 174, 225, 1);
+    font-weight: lighter;
+    font-size: 1.5rem;
+    text-align: center;
+    margin: auto
+}

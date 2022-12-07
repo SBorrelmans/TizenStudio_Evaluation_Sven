@@ -1,9 +1,11 @@
 // within this function the (random) sequence of the questions is initialized and the index is set to zero
-function InitSequence() {
-	localStorage.clear(); // clear localStorage when there are still attributes
-	
+(function() {
+    localStorage.clear(); // clear localStorage when there are still attributes
+
     var index = 0; // set index to zero
     localStorage.setItem("index", index); // save the index number to local storage
+    var indexTimer = 0;
+    localStorage.setItem("indexTimer", indexTimer); // save the index number to local storage
 
     // Function to shuffle the sequence
     function shuffleAttributes(attribute) {
@@ -60,4 +62,14 @@ function InitSequence() {
         newSequence += questionsList[i] + "," + interactionList[i] + ";";
     }
     localStorage.setItem("sequence", newSequence); // save the index number to local storage with name "sequence"
-}
+    localStorage.setItem("indexMax", questionsList.length); // save the number of questions in the "sequence"
+
+    //    // small checker
+    //    var currentIndex = localStorage.getItem("index"); // get the current index out of sequence
+    //    var mySeq = localStorage.getItem("sequence"); // get sequence out of localStorage
+    //    var TimerIndex = localStorage.getItem("indexTimer"); // get the current index out of sequence
+    //
+    //    console.log(currentIndex);
+    //    console.log(mySeq);
+    //    console.log(TimerIndex);
+}());

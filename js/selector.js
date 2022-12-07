@@ -11,7 +11,7 @@
      */
     function onClick(event) {
         var target = event.target;
-        window.open("BezelRotation_LNSc.html#BRthree_Lsc", "_self"); // if clicked go to page ##
+        window.location.href = "../Bravo.html#bravo_one"; // if clicked go to page ##
         if (target.classList.contains("ui-selector-indicator")) {
             return;
         }

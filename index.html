@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+
 <html>
 
 <head>
@@ -6,22 +8,29 @@
     <title>
         starting_screen
     </title>
+
     <link href="css/style.css" rel="stylesheet" />
     <link href="TAUUIComponents/lib/tau/wearable/theme/default/tau.css" rel="stylesheet" />
-    <link rel="stylesheet" type="text/css" href="../TAUUIComponents/css/style.css" />
-    <script src="TAUUIComponents/js/app.js"></script>
+    <link rel="stylesheet" type="text/css" href="TAUUIComponents/css/style.css" />
+    <script src="TAUUIComponents/lib/tau/wearable/js/tau.js"></script>
 
 </head>
 
-
 <body>
+
+    <!-- Load in the JS file to initialize the variables of the sequence -->
+    <script src="js/Init_var.js">
+    </script>
+
+
+    <!-- General body to let the evaluation begin -->
     <div class="ui-page">
         <div class="ui-content ui-content-padding question_question">
             <p>Thank you for participating, let's begin!
                 <p/>
         </div>
         <footer class="ui-footer ui-bottom-button ui-fixed">
-            <a href="Interaction_chooser.html" target="_self">
+            <a href="Questions.html" target="_self">
                 <button class="ui-btn">
                     Tick to begin
                 </button>

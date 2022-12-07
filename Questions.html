@@ -11,88 +11,31 @@
     <link href="TAUUIComponents/lib/tau/wearable/theme/default/tau.css" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="TAUUIComponents/css/style.css" />
     <script src="TAUUIComponents/lib/tau/wearable/js/tau.js"></script>
-    <script src="TAUUIComponents/js/app.js"></script>
 </head>
 
 <body>
-    <!-- Question 1 -->
+    <!-- Displaying the question -->
     <div class="ui-page" id="question_1">
         <header class="ui-header">
-            <h2 class="ui-title questions_header">
-				Question 1
-			</h2>
+            <h2 class="ui-title questions_header" id="q_header"></h2>
         </header>
-        <div class="ui-content ui-content-padding question_question">
-            <p>Can you insert the number 9?
-                <p/>
-        </div>
-        <footer class="ui-footer ui-bottom-button ui-fixed">
-            <a href="Lsc/BezelRotation_LNSc.html" target="_self">
-                <button class="ui-btn">
-                    Tick to answer
-                </button>
-            </a>
-        </footer>
-    </div>
 
-    <!-- Question 2 -->
-    <div class="ui-page" id="question_2">
-        <header class="ui-header">
-            <h2 class="ui-title questions_header">
-				Question 2
-			</h2>
-        </header>
-        <div class="ui-content ui-content-padding question_question">
-            <p>How many fingers do you have?
+        <div class="ui-content ui-content-padding ">
+            <p id="q_interaction" class="q_interaction"></p>
+            <p id="q_content" class="question_question">
                 <p/>
         </div>
-        <footer class="ui-footer ui-bottom-button ui-fixed">
-            <a href="Lsc/MS-tapping_LNSc.html" target="_self">
-                <button class="ui-btn">
-                    Tick to answer
-                </button>
-            </a>
-        </footer>
-    </div>
 
-    <!-- Question 3 -->
-    <div class="ui-page" id="question_3">
-        <header class="ui-header">
-            <h2 class="ui-title questions_header">
-				Question 3
-			</h2>
-        </header>
-        <div class="ui-content ui-content-padding question_question">
-            <p>2019 is how many years ago?
-                <p/>
-        </div>
         <footer class="ui-footer ui-bottom-button ui-fixed">
-            <a href="Lsc/Swiping_LNSc.html" target="_self">
-                <button class="ui-btn">
-                    Tick to answer
-                </button>
-            </a>
-        </footer>
-    </div>
-
-    <!-- Question 4 -->
-    <div class="ui-page" id="question_4">
-        <header class="ui-header">
-            <h2 class="ui-title questions_header">
-				Question 1
-			</h2>
-        </header>
-        <div class="ui-content ui-content-padding question_question">
-            <p>Two + Six= ?
-                <p/>
-        </div>
-        <footer class="ui-footer ui-bottom-button ui-fixed">
-            <button class="ui-btn">
+            <button class="ui-btn" id="q_button">
                 Tick to answer
             </button>
         </footer>
     </div>
 
+    <!-- run script to get current sequence -->
+    <script src="js/define_sequence.js">
+    </script>
 </body>
 
 </html>

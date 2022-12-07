@@ -1,6 +1,5 @@
 /*global tau */
 (function() {
-
     var page = document.getElementById("hsectionchangerPage"),
         changer = document.getElementById("hsectionchanger"),
         sectionLength = document.querySelectorAll("section").length,
@@ -48,4 +47,44 @@
 
     changer.addEventListener("sectionchange", pageIndicatorHandler, false);
 
+    // reference part
+    document.getElementById("swiping_atrribute1").addEventListener("click", function() {
+        window.location.href = "../Bravo.html#bravo_one"; // if clicked go to page ##
+    });
+
+    document.getElementById("swiping_atrribute2").addEventListener("click", function() {
+        window.location.href = "../Bravo.html#bravo_one"; // if clicked go to page ##
+    });
+
+    document.getElementById("swiping_atrribute3").addEventListener("click", function() {
+        window.location.href = "../Bravo.html#bravo_one"; // if clicked go to page ##
+    });
+
+    document.getElementById("swiping_atrribute4").addEventListener("click", function() {
+        window.location.href = "../Bravo.html#bravo_one"; // if clicked go to page ##
+    });
+
+    document.getElementById("swiping_atrribute5").addEventListener("click", function() {
+        window.location.href = "../Bravo.html#bravo_one"; // if clicked go to page ##
+    });
+
+    document.getElementById("swiping_atrribute6").addEventListener("click", function() {
+        window.location.href = "../Bravo.html#bravo_one"; // if clicked go to page ##
+    });
+
+    document.getElementById("swiping_atrribute7").addEventListener("click", function() {
+        window.location.href = "../Bravo.html#bravo_one"; // if clicked go to page ##
+    });
+
+    document.getElementById("swiping_atrribute8").addEventListener("click", function() {
+        window.location.href = "../Bravo.html#bravo_one"; // if clicked go to page ##
+    });
+
+    document.getElementById("swiping_atrribute9").addEventListener("click", function() {
+        window.location.href = "../Bravo.html#bravo_one"; // if clicked go to page ##
+    });
+
+    document.getElementById("swiping_atrribute10").addEventListener("click", function() {
+        window.location.href = "../Bravo.html#bravo_one"; // if clicked go to page ##
+    });
 }());
