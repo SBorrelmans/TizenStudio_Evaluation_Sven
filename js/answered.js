@@ -8,6 +8,7 @@
         if (currentIndex <= maxIndex - 1) { // if not all questions are answered go to the next question
             window.location.href = "Questions.html";
         } else { // else go to the completion screen
+            
             window.location.href = "Bravo.html#bravo_completed";
         }
     };

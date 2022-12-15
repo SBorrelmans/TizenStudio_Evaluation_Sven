@@ -31,7 +31,6 @@
         "10,Can you insert the number 10?",
         "11,What is the best grade you can get?",
         "12,What is the worse grade you can get?",
-
     ];
 
     // all of the interactions to be used
@@ -63,6 +62,7 @@
     }
     localStorage.setItem("sequence", newSequence); // save the index number to local storage with name "sequence"
     localStorage.setItem("indexMax", questionsList.length); // save the number of questions in the "sequence"
+//    createFile();
 
     //    // small checker
     //    var currentIndex = localStorage.getItem("index"); // get the current index out of sequence
@@ -72,4 +72,46 @@
     //    console.log(currentIndex);
     //    console.log(mySeq);
     //    console.log(TimerIndex);
+    
+    /* attempt number one*/
+    
+//    var res, file, jsonInit, jsonString;
+//    // make a new .Json file which will contain the data of the participant
+//    function createFile() {
+//        FileHandle openFile("documents", function(dir) { // put in the documents folder
+//            var currentTime = tizen.time.getCurrentDateTime(); // fetch currentdateandtime
+//            res = dir.createDirectory("res"); // give it the name of the data + time so you can track it back to the participant
+//            file = res.createFile(currentTime + ".json"); // create file
+//            file.openStream(
+//                "w",
+//                function(fs) {
+//                    jsonInit = '{"Date_Time":"0", "Index":"0","q_num":"0","I_styl_u":0,"T_perf":0,"Errors:0}'; // init new file
+//                    fs.write(jsonInit); // write it it the file
+//                    alert("JSON file Created");
+//                    fs.close();
+//                },
+//                function(e) {
+//                    console.log("Error " + e.message);
+//                }, "UTF-8");
+//        });
+//    }
+    
+    
+    /* example code also not working. */
+    var fileHandleWrite = tizen.filesystem.openFile("documents/file", "w");
+    console.log("File opened for writing");
+    fileHandleWrite.writeString("Lorem ipsum dolor sit amet...");
+    console.log("String has been written to the file");
+    fileHandleWrite.close();
+
+    /* Opening file for read - this code assumes that there is */
+    /* a file named "file" in documents directory. */
+    var fileHandleRead = tizen.filesystem.openFile("documents/file", "r");
+    console.log("File opened for reading");
+    var fileContent = fileHandleRead.readString();
+    console.log("File content: " + fileContent);
+    fileHandleRead.close();
+        
+    
+    
 }());
