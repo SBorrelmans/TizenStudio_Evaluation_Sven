@@ -29,8 +29,8 @@ P//HxHY4Ng==</DigestValue>
 </Reference>
 <Reference URI="MS-tapping.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>pXfykO2Zh6CZaq8/v90wvHhQs6q23rudYKMg9G3oEz8p9W/7MK6D4I9gN4kFYiTcCVNG6UPYOF1h
-sukI67txXA==</DigestValue>
+<DigestValue>O5w6/t5ZyG+DhGJmM3/YrgwHbWGmrimD99zHvqFfPfobqdrJjt7fQco00X1IQZY5LCTMU3VSYfxh
+LiprB6xznQ==</DigestValue>
 </Reference>
 <Reference URI="Questions.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -2149,13 +2149,13 @@ K1mpMjoAng==</DigestValue>
 </Reference>
 <Reference URI="author-signature.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>Qdj2uSmf8snpvlgjkysoGgvUXm98tbWipT5LU+Vhrcj6EhhHjknBphBjLktSpqhfu9fqEiVTibay
-Y6X6oDPIGw==</DigestValue>
+<DigestValue>0DkHzPpmpaGmjByEPIj8YPGLPizFl4a0evkYETv0NDcb13eX7II/75Yx//WwhONFgaa9M8MZ/Z71
+pvU6BBL1/A==</DigestValue>
 </Reference>
 <Reference URI="config.xml">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>KtaVC2uWqmGQckqBdHRfSY65MgDEn5x1DqWmIwYWdfMbmhiIOX/RMWQpk4nbl0rjf6NB9zaykX7P
-hZ6Ymx6haw==</DigestValue>
+<DigestValue>1EQq/xpuL0H9mYEDsDq9wkxgjpcJYKmfov+BMuXQsedRsQ2nK2dXPQsOWZkyiQL2yiM7XT+YSdtx
+Ehak3mAs1A==</DigestValue>
 </Reference>
 <Reference URI="css%2Fsectionchanger.css">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -2174,13 +2174,13 @@ fNzLGJ1wUA==</DigestValue>
 </Reference>
 <Reference URI="index.html">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>BMMGdUz5rGyYXCi5ObQeTGaibWCjTlx/EjI8MNj25aCFv8/aXfS41LWYi0dPFVC1570ANDBBXH/E
-32E9enblQQ==</DigestValue>
+<DigestValue>NuGFgGQOw3+Vp3/5jq6MEtIjS/5pSfuJHESdXhvUyvTxlG7lXIqeim83ZkF9O5wWG9l9D+d8mMaG
+apsy+e6pKQ==</DigestValue>
 </Reference>
 <Reference URI="js%2FInit_var.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>WnKPhD/0dMqUpGGusQOu+4FArrM1T3zaq/wwMKmY0bDjLb02rBwW6yRLllkmzDBfFna/QKic7lR0
-wHawDXervA==</DigestValue>
+<DigestValue>iYVdU8paR5Ncy7R768xojN4sLHVjEjDkgqECvlLdKHr1DiJnDYFoUXlwuiqoQ9HbxIbRecd/VaAC
+O+bWcezmMQ==</DigestValue>
 </Reference>
 <Reference URI="js%2FTimer.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -2194,8 +2194,8 @@ wMlq5/HoAQ==</DigestValue>
 </Reference>
 <Reference URI="js%2Fanswered.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
-<DigestValue>ad7jCh9TpvieLcZhBAN8pkbhS3vCZQkrvgAY++kqI8A1clgOM+KPFXHnWVZhl1eU8CYC4HZ73jeV
-tVyvaUwTtQ==</DigestValue>
+<DigestValue>rB9WBGQDHprRezUQpg+ijzrvXeYpO0LZZEJ5M7EkhFCtP0vbGCvKxFV4G4VaQEb1V9t1aW6Hc05l
+7PuQdR9hkQ==</DigestValue>
 </Reference>
 <Reference URI="js%2Fcircular.js">
 <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
@@ -2227,6 +2227,11 @@ ODJ6+SfaPg==</DigestValue>
 <DigestValue>m1Y83GLYNRh3VJTc3+sCIa9xSjgFfyEF+QMvUHD1nlt1qHOinMGxjHdx5wJIuSFpOs7CAvqGpYZP
 cYwWDQ+SdQ==</DigestValue>
 </Reference>
+<Reference URI="start.html">
+<DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"></DigestMethod>
+<DigestValue>ktxQDyMdbiqh8HySImbXkrmP2Roq6f5mXq0iV+fBN33mcWDvAGDQL5W3aopDMkIxnHroi1CBxuN7
+qhOA5wAMSA==</DigestValue>
+</Reference>
 <Reference URI="#prop">
 <Transforms>
 <Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"></Transform>
@@ -2237,11 +2242,11 @@ GyvKX9Snig==</DigestValue>
 </Reference>
 </SignedInfo>
 <SignatureValue>
-PzePG4iFxkz6jKWlqTbFawMoMGjWtvb/YuvgB+uKx2zIaJjovTLFxCSKOs233gGIXpghNHj3BU+p
-m8lp0vzwd7JzSHq1SZw+gkEHA/4nF1gTd6zaWDozrY8bViqfKSy/KEsPQaLQN+nAKanUJLPkBURG
-w1GAdiH7TZS34tuyVYd53QA9+Mazncbx02Y7HLyH2uD2mRW/TJfJQDLvr/1Lg5TtnhOteV5J03al
-Q8xmN541hzqg27IhRvKOx0KepRQA0XUmFQKZ/EOTtwagD6e9wwhKlnjyA/0g3X63U0VZOBXiA+vF
-+VQl45QazUWJ+I9E29UtggztiYU9/AxlumBO7w==
+J8hy5k+abzb4ZijHvMhJenLsdtAciMv3JUqD49Mwl40ql8GkI+tvF5JY1vAKJb6vuyP2H1qOj6gL
+C4za+ndhNi8jBt0g4SIDhxN9x7AHQZQprBdkMbLZl5m4j9uGmxPvqps932by9wjF13KFmPSD7sp8
++wru/cxywK0GkcklOVbcAoDvz26Oogu2mPOxlfQJzwh8dEuTGjLxzZFFlaisHS9f6jMGZX2injn7
+E81zu3tHwVz0fg36mg+7xzBdBVTKzPMKuCCSc7cVV6rKOZS0wYLdIDghtpU5gPyw13kE9k9P2xmR
+K/knbDu5kjhi1JJQctEcirkqj82Crsvd2b/DOg==
 </SignatureValue>
 <KeyInfo>
 <X509Data>
