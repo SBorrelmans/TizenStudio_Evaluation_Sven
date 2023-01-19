@@ -1,6 +1,5 @@
 (function() {
     var indexTimer = localStorage.getItem("indexTimer"); // get the current index out of sequence
-    console.log(indexTimer);
 
     // if timer needs to start
     if (indexTimer === "0") {
@@ -13,9 +12,7 @@
         var endTimer = Date.now(); // get current time
         var startTimer = localStorage.getItem("startTimer"); // fetch time when timer started
         var timerDifference = endTimer - startTimer; // calculate time difference
-        console.log("starting time = " + startTimer);
-        console.log("ending time = " +endTimer);
-        console.log("time difference = " +timerDifference);
+        console.log("time difference = " + timerDifference);
         savePerformence();
 
         localStorage.setItem("indexTimer", parseInt(indexTimer) - 1); // save the index number to local storage
@@ -26,13 +23,25 @@
     function savePerformence() {
         var currentIndex = localStorage.getItem("index"); // get the current index out of sequence
         var mySeq = localStorage.getItem("sequence"); // get sequence out of localStorage
+        var questionAnswer = localStorage.getItem("answerPart");
 
         // fetch variables
         var newQuestionNumber = mySeq.split(";")[currentIndex].split(",")[0]; // split questionNumber out of sequence line
         var newInteractionStyle = mySeq.split(";")[currentIndex].split(",")[2]; // split interactionStyle out of sequence line
 
-        // save the performence data including index,questionNumber,interactionStyleUsed,timeOfPerformence
-        localStorage.setItem("question_performence", currentIndex + "," + newQuestionNumber + "," + newInteractionStyle + "," + timerDifference); // save the index number to local storage
-        console.log(localStorage.getItem("question_performence"));
+        // save the performence to the local file of the current participant
+        var name_part = localStorage.getItem("part_name");
+        var sendInfo = currentIndex + "," + newQuestionNumber + "," + questionAnswer + "," + newInteractionStyle + "," + timerDifference + ";"; // send data
+        writeToFile(name_part, sendInfo, "a");
+        console.log(sendInfo);
+    }
+
+    // function to write to tje local file
+    function writeToFile(fileName, content, mode) {
+        var fileHandleWrite = tizen.filesystem.openFile("documents/" + fileName, mode);
+        console.log("File opened for writing");
+        fileHandleWrite.writeString(content);
+        fileHandleWrite.close();
+        console.log("File closed for writing");
     }
 }());

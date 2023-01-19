@@ -3,7 +3,7 @@
     <tizen:application id="49TPncMCO3.EvaluationSven1" package="49TPncMCO3" required_version="5.5"/>
     <content src="start.html"/>
     <feature name="http://tizen.org/feature/screen.size.all"/>
-    <icon src="icon.png"/>
+    <icon src="Tizen_Logo_adj.png"/>
     <name>EvaluationSven1</name>
     <tizen:privilege name="http://tizen.org/privilege/filesystem.read"/>
     <tizen:privilege name="http://tizen.org/privilege/filesystem.write"/>

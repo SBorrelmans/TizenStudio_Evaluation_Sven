@@ -1,6 +1,7 @@
 // within this function the (random) sequence of the questions is initialized and the index is set to zero
 (function() {
 
+    // request getting local storage permission
     var permissionRequests = ["http://tizen.org/privilege/externalstorage"];
     for (var i = 0; i < permissionRequests.length; i++) {
         var result = tizen.ppm.checkPermission(permissionRequests[i]);
@@ -17,14 +18,17 @@
                 break;
         }
     }
-function errorCallback(){}
-    function permissionSuccess() {
-        writeToFile("aaa", "aa", "w");
-        localStorage.clear(); // clear localStorage when there are still attributes
 
+    // function to run when there is no local storage permission on the watch 
+    function errorCallback() {}
+
+    // function to run when there is local storage permission on the watch
+    function permissionSuccess() {
+        localStorage.clear(); // clear localStorage when there are still attributes
+        
         var index = 0; // set index to zero
         localStorage.setItem("index", index); // save the index number to local storage
-        var indexTimer = 0;
+        var indexTimer = 0; // indexTimer starts at zero
         localStorage.setItem("indexTimer", indexTimer); // save the index number to local storage
         var questionsList = [ // length should be a multiple of interactionsToUse.length
             "1,Can you insert the number 5?",
@@ -43,9 +47,11 @@ function errorCallback(){}
 
         // all of the interactions to be used
         var interactionsToUse = [
+        //    "BezelRotation",
+//            "BezelRotation",
             "BezelRotation",
             "MS-tapping",
-            "Swiping",
+            "Swiping"
         ];
 
         // set all the attributes in the interactionList with has the same length as the questions
@@ -70,10 +76,11 @@ function errorCallback(){}
         }
         localStorage.setItem("sequence", newSequence); // save the index number to local storage with name "sequence"
         localStorage.setItem("indexMax", questionsList.length); // save the number of questions in the "sequence"
+        
+        startNewDocument(); // make a new document at the beginning of the test
     }
 
-
-
+    // function to write to tje local file
     function writeToFile(fileName, content, mode) {
         var fileHandleWrite = tizen.filesystem.openFile("documents/" + fileName, mode);
         console.log("File opened for writing");
@@ -92,35 +99,12 @@ function errorCallback(){}
         }
     }
 
-    // all of the questions to be asked
-
-    //    createFile();
-
-    //    // small checker
-    //    var currentIndex = localStorage.getItem("index"); // get the current index out of sequence
-    //    var mySeq = localStorage.getItem("sequence"); // get sequence out of localStorage
-    //    var TimerIndex = localStorage.getItem("indexTimer"); // get the current index out of sequence
-    //
-    //    console.log(currentIndex);
-    //    console.log(mySeq);
-    //    console.log(TimerIndex);
-
-    /* attempt number one*/
-
-    //    /* example code also not working. */
-    //    var fileHandleWrite = tizen.filesystem.openFile("documents/file", "w");
-    //    console.log("File opened for writing");
-    //    fileHandleWrite.writeString("Lorem ipsum dolor sit amet...");
-    //    console.log("String has been written to the file");
-    //    fileHandleWrite.close();
-    ////    /* Opening file for read - this code assumes that there is */
-    //    /* a file named "file" in documents directory. */
-    //    var fileHandleRead = tizen.filesystem.openFile("documents/file", "r");
-    //    console.log("File opened for reading");
-    //    var fileContent = fileHandleRead.readString();
-    //    console.log("File content: " + fileContent);
-    //    fileHandleRead.close();
-
-
-
+    // function to create a new local file for a new participant
+    function startNewDocument() {
+        var beginD = new Date().toString(); // get current time
+        var beginEval = beginD.replace(/:/g,"");
+        localStorage.setItem("part_name", beginEval); // save the index number to local storage
+        writeToFile(beginEval, "aaa", "w"); // 							(fileName, content, mode is always "w")
+        console.log(beginEval);
+    }
 }());

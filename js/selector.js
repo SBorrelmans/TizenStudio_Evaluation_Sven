@@ -11,7 +11,6 @@
      */
     function onClick(event) {
         var target = event.target;
-        window.location.href = "../Bravo.html#bravo_one"; // if clicked go to page ##
         if (target.classList.contains("ui-selector-indicator")) {
             return;
         }
@@ -34,5 +33,9 @@
     page.addEventListener("pagebeforehide", function() {
         selector.removeEventListener("click", clickBound, false);
         selectorComponent.destroy();
+    });
+
+    document.getElementById("selector").addEventListener("click", function() {
+        window.location.href = "../Bravo.html#bravo_one"; // if clicked go to page ##
     });
 }());

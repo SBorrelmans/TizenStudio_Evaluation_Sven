@@ -2762,7 +2762,7 @@ tau-listview {
     font-size: 2.75rem;
     line-height: normal;
     min-height: 2.25rem;
-    padding: 1.46rem 0.5rem 1.46rem 1rem;
+    padding: 1.0rem 0.5rem 1.25rem 1rem;
     border-bottom: 0.0625rem solid rgba(56, 56, 56, 1);
     white-space: nowrap;
     position: relative;
@@ -4097,7 +4097,7 @@ tau-pageindicator {
     display: block;
 }
 .ui-page-indicator {
-	margin-top:20px
+	margin-top:25px;
     display: block;
     position: absolute;
     left: 50%;
@@ -4279,11 +4279,15 @@ tau-sectionchanger {
 }
 .ui-selector {
     position: absolute;
-    top: 0;
+    top: 0px;
     left: 0;
     height: 100%;
     width: 100%;
     background-color: rgba(255, 255, 255, 1);
+}
+
+.ui-selector .ui-bezel {
+    pointer-events:none;
 }
 .ui-selector .ui-layer {
     position: absolute;
@@ -4299,6 +4303,7 @@ tau-sectionchanger {
     z-index: 3;
 }
 .ui-selector .ui-layer.ui-layer-active .ui-item {
+	pointer-events: none;
     visibility: visible;
     transition: -webkit-transform 300ms ease-out;
     transition: transform 300ms ease-out;
@@ -4413,7 +4418,6 @@ tau-sectionchanger {
 }
 .ui-selector .ui-selector-indicator .ui-selector-indicator-text {
     font-size: 7rem;
-    pointer-events: none;
     width: 10.25rem;
     line-height: 8rem;
     max-height: 7rem;
