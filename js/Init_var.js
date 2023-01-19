@@ -24,31 +24,40 @@
 
     // function to run when there is local storage permission on the watch
     function permissionSuccess() {
+        init();
+    }
+    init();
+
+    function init() {
         localStorage.clear(); // clear localStorage when there are still attributes
-        
+
         var index = 0; // set index to zero
         localStorage.setItem("index", index); // save the index number to local storage
         var indexTimer = 0; // indexTimer starts at zero
         localStorage.setItem("indexTimer", indexTimer); // save the index number to local storage
         var questionsList = [ // length should be a multiple of interactionsToUse.length
             "1,Can you insert the number 5?",
-            "2,How many fingers do you have?",
-            "3,2019 is how many year ago?",
+            "2,How many fingers do you have on your right hand?",
+            "3,2021 is how many year ago?",
             "4,Two + Six = ?",
             "5,Three - Two = ?",
             "6,One + Six = ?",
             "7,Which places comes after 8th?",
-            "8,How many toes do you have?",
-            "9,Can you insert the number 1?",
+            "8,How many toes do you have on your left foot?",
+            "9,Can you insert the number 7?",
             "10,Can you insert the number 10?",
             "11,What is the best grade you can get?",
             "12,What is the worse grade you can get?",
+            "13,Can you insert the number 8?",
+            "14,Can you insert the number 3?",
+            "15,Three + Six = ?",
+            "16,One + One = ?",
+            "17,How many thumbs do you have?",
+            "18,Can you insert number 2?",
         ];
 
         // all of the interactions to be used
         var interactionsToUse = [
-        //    "BezelRotation",
-//            "BezelRotation",
             "BezelRotation",
             "MS-tapping",
             "Swiping"
@@ -76,7 +85,7 @@
         }
         localStorage.setItem("sequence", newSequence); // save the index number to local storage with name "sequence"
         localStorage.setItem("indexMax", questionsList.length); // save the number of questions in the "sequence"
-        
+
         startNewDocument(); // make a new document at the beginning of the test
     }
 
@@ -102,9 +111,11 @@
     // function to create a new local file for a new participant
     function startNewDocument() {
         var beginD = new Date().toString(); // get current time
-        var beginEval = beginD.replace(/:/g,"");
+        var beginEval = beginD.replace(/:/g, "");
         localStorage.setItem("part_name", beginEval); // save the index number to local storage
         writeToFile(beginEval, "aaa", "w"); // 							(fileName, content, mode is always "w")
         console.log(beginEval);
     }
+
+
 }());

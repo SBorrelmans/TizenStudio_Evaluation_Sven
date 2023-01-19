@@ -7,7 +7,8 @@
         localStorage.setItem("index", currentIndex); // save the index number to local storage
         if (currentIndex <= maxIndex - 1) { // if not all questions are answered go to the next question
             window.location.href = "Questions.html";
-        } else { // else go to the completion screen   
+        } else { // else go to the completion screen 
+        	localStorage.setItem("index", 0); // reset indexNumber
             window.location.href = "Bravo.html#bravo_completed";
         }
     };
