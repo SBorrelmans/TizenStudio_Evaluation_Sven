@@ -12,14 +12,23 @@
      * pagebeforeshow event handler
      * Do preparatory works and adds event listeners
      */
+
+
+//
+//    document.addEventListener('rotarydetent', function(e){
+//    	e.preventDefault(); 
+//    	return;
+//     });
+//    
     page.addEventListener("pagebeforeshow", function() {
         // make PageIndicator
         pageIndicator = tau.widget.PageIndicator(elPageIndicator, {
             numberOfPages: sectionLength,
             maxPage: 10,
-            layout: "linear"
+            layout: "linear",
         });
-        pageIndicator.setActive(2);
+
+        pageIndicator.setActive(4);
         // make SectionChanger object
         sectionChanger = tau.widget.SectionChanger(changer, {
             circular: false,
@@ -35,6 +44,7 @@
     page.addEventListener("pagehide", function() {
         // release object
         sectionChanger.destroy();
+
     });
 
     /**

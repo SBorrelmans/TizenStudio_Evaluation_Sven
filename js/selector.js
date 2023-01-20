@@ -35,7 +35,10 @@
         selectorComponent.destroy();
     });
 
+    // if clicked submit the answer to the system and go to the bravo screen
     document.getElementById("selector").addEventListener("click", function() {
+        var answerBezel = Number(document.getElementsByClassName("ui-selector-indicator-text")[0].innerText); // fetch the submitted number
+        localStorage.setItem("answerPart", answerBezel);
         window.location.href = "../Bravo.html#bravo_one"; // if clicked go to page ##
     });
 }());
