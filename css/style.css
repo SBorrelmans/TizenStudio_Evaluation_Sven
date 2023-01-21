@@ -98,3 +98,26 @@ body {
     text-align: center;
     margin: auto
 }
+/*  Arrows within swiping interaction*/
+
+.arrow {
+    border: solid black;
+    border-color: rgba(153,153,153,0.3);
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: 10px;
+}
+.arrow.right {
+	position:fixed;
+	right: 30px;
+	top:180px; 
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+.arrow.left {
+	position:fixed;
+	left: 30px;
+	top:180px;
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}

@@ -24,8 +24,9 @@
 
     // function to run when there is local storage permission on the watch
     function permissionSuccess() {
-        init();
-    }
+            init();
+        }
+        // after first loop where permission is give, still inite the programme
     init();
 
     function init() {
@@ -58,9 +59,9 @@
 
         // all of the interactions to be used
         var interactionsToUse = [
-            "BezelRotation",
-            "MS-tapping",
-            "Swiping"
+                        "BezelRotation",
+                        "MS-tapping",
+                        "Swiping"
         ];
 
         // set all the attributes in the interactionList with has the same length as the questions
@@ -113,9 +114,7 @@
         var beginD = new Date().toString(); // get current time
         var beginEval = beginD.replace(/:/g, "");
         localStorage.setItem("part_name", beginEval); // save the index number to local storage
-        writeToFile(beginEval, "aaa", "w"); // 							(fileName, content, mode is always "w")
+        writeToFile(beginEval, "aaa", "w"); //(fileName, content, mode is always "w" at the beginning)
         console.log(beginEval);
     }
-
-
 }());
